@@ -7,76 +7,75 @@ public class Principal {
     
      public static void main(String[] args) {
        
-        Listas<Integer> h = new Listas<>();
+        Listas<Integer> y = new Listas<>();
         
         System.out.println("------------------Método estaVacia()------------------"); 
         
-        h.estaVacia();
+        y.estaVacia();
         
         System.out.println("------------------Método getTamanio()------------------"); 
      
-        h.getTamanio();
+        y.getTamanio();
         
         System.out.println("------------------Método agregarAlFinal()------------------");
      
-        h.agregarFinal(8);
-        h.transversal();
+        y.agregarFinal(8);
+        y.transversal();
         
         System.out.println("------------------Método agregarAlInicio()------------------");
     
-        h.agregarInicio(23);
-        h.transversal();
+        y.agregarInicio(23);
+        y.transversal();
         
         System.out.println("------------------Método agregarDespuesDe()------------------");
        
-        h.agregarSiguiente(8, 44);
-        h.transversal();
+        y.agregarSiguiente(8, 44);
+        y.transversal();
         
        
-        h.agregarInicio(117);
-        h.agregarFinal(6);
-        h.agregarFinal(9);
-        h.agregarFinal(10);
-        h.agregarFinal(14);
-        h.agregarSiguiente(10, 21);
+        y.agregarInicio(117);
+        y.agregarFinal(6);
+        y.agregarFinal(9);
+        y.agregarFinal(10);
+        y.agregarFinal(14);
+        y.agregarSiguiente(10, 21);
         System.out.println("------------------Agregamos más elementos a la lista------------------");
-        h.transversal();
+        y.transversal();
         
         System.out.println("------------------Método eliminar()------------------");
       
-        h.eliminar(3);
-        h.transversal();
+        y.eliminar(3);
+        y.transversal();
         
         System.out.println("------------------Método eliminarElFinal()-------------------");
      
-        h.eliminarFinal();
-        h.transversal();
+        y.eliminarFinal();
+        y.transversal();
         
         System.out.println("------------------Método eliminarElPrimero()-------------------");
      
-        h.eliminarInicio();
-        h.transversal();
+        y.eliminarInicio();
+        y.transversal();
         
         System.out.println("------------------Método buscar()--------------------");
         
-        h.buscador(6);
+        y.buscador(6);
         
         System.out.println("------------------Método actualizar()------------------");
         
-        h.actualizar(8, 1);
-        h.transversal();
+        y.actualizar(8, 1);
         
         System.out.println("------------------Método getTamanio()------------------");
       
-        h.getTamanio();
+        y.getTamanio();
         
         System.out.println("------------------Método transversal()------------------");
         
-        h.transversal();
+        y.transversal();
         
         System.out.println("------------------Método estaVacia()------------------"); 
         
-        h.estaVacia();
+        y.estaVacia();
         
     }
 }
